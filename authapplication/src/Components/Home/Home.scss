@@ -1,0 +1,32 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  word-wrap: break-word;
+  margin: 50px auto;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  font-family: cursive;
+}
+
+.logout {
+  margin: 0 40px;
+  float: right;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 600px;
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+}
